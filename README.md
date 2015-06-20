@@ -10,13 +10,19 @@
 
 
 参考如下大神的设计思想
+
    http://www.trinea.cn/android/auto-scroll-view-pager/
+
    http://blog.csdn.net/singwhatiwanna/article/details/46541225
 
 后期改进：
+
   调试了2天做出来的效果。时间仓促指示器和标题显示还没处理。
+
   后期可将MyAdPagerAdapter.java中不变的部分进一步的封装起来，特别是instantiateItem函数里面的那块内容。
   
 
 效果图：
+
+
 ![image](https://github.com/ztoh/AdCycle/blob/master/adTest2.gif)
